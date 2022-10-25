@@ -18,7 +18,7 @@ int main()
     PhysicsCircle ball;
     ball.setCenter(Vector2f(400, 150));
     ball.setRadius(20);
-    ball.applyImpulse(Vector2f(1,0.5));
+    ball.applyImpulse(Vector2f(1,0.3));
     world.AddPhysicsBody(ball);
 
     PhysicsRectangle floor;
